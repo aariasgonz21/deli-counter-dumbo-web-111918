@@ -17,4 +17,5 @@ end
 
 def take_a_number(deli, name)
   deli << name
+  "Welcome #{name}. You are number #{deli.index + 1} in line."
 end
