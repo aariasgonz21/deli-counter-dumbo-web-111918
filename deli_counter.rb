@@ -11,6 +11,6 @@ def line(deli)
       deli.each_with_index{|name, num|
         list += "#{num + 1}. #{name} "
       }
-      puts "The line is currently: #{list} "
+      puts "The line is currently: #{list}"
   end
 end
