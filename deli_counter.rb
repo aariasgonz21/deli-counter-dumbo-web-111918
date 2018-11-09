@@ -9,7 +9,7 @@ def line(deli)
   else
       list = ""
       deli.each_with_index{|name, num|
-        list += " #{num + 1}. #{name} "
+        list += " #{num + 1}. #{name}"
       }
       puts "The line is currently: #{list}"
   end
